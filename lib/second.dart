@@ -5,12 +5,12 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Second Page'),
+        title: Text('Back Page'),
         backgroundColor: Colors.grey[900],
       ),
       body: Center(
         child: Text(
-          'This is the second page',
+          'This is the Back page',
           style: TextStyle(fontSize: 24),
         ),
       ),
